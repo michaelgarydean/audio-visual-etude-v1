@@ -1,5 +1,22 @@
 body {
-  background-color: #333333;
+  background-color: #111111;
+  margin: 0px;
+  overflow: hidden;
+}
+body .container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/perlin-noise.png");
+  background-size: cover;
+  background-blend-mode: screen;
+  opacity: 0.1;
+}
+body .foreground {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/grid.svg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
