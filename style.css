@@ -4,6 +4,7 @@ body {
   overflow: hidden;
 }
 body .container {
+  display: none;
   height: 100vh;
   width: 100vw;
   background-image: url("images/perlin-noise.png");
